@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    !-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+<body>
+      <div class="container">
+          <h1> Add New Post:</h1>
+          <form action="/posts/" method="post">
+              <label for="title" class="form-label">Title:</label>
+              <input name="title" type="text" class="form-control">
+              <label for="body" class="form-label">Body:</label>
+              <textarea name="body" cols="30" rows="10" class="form-control"></textarea>
+              <input type="submit" value="Save" class="btn btn-primary">
+          </form>
+      </div>
+</body>
+</html>
